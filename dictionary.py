@@ -7,3 +7,6 @@ programming_dictionary={}
 print(programming_dictionary)
 #Editing and item in a dictionary
 programming_dictionary["Bug"]= "hackerone"
+#loop through a thing in a dictionary
+for thing in programming_dictionary:
+  print(thing)
