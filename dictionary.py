@@ -9,4 +9,5 @@ print(programming_dictionary)
 programming_dictionary["Bug"]= "hackerone"
 #loop through a thing in a dictionary
 for thing in programming_dictionary:
-  print(thing)
+  print(key)
+  print(programming_dictionary[key])
