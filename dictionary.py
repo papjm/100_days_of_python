@@ -5,3 +5,5 @@ programming_dictionary["loop"]= "The action of doing something over and over aga
 #wipe an existing dictionary
 programming_dictionary={}
 print(programming_dictionary)
+#Editing and item in a dictionary
+programming_dictionary["Bug"]= "hackerone"
