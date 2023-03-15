@@ -1,26 +1,27 @@
 #Building a simple calculator to excercise my knowledge on python programming
 
 #Add
-def addition(n1, n2):
+def Add(n1, n2):
   return n1 + n2
 
 #subtract
-def subtraction(n1, n2):
+def Subtract(n1, n2):
   return n1 - n2
 
 #multiply
-def multiplication(n1, n2):
+def Multiply(n1, n2):
   return n1 * n2
 
 #divide
-def division(n1, n2):
+def Divide(n1, n2):
   return n1 / n2
 
 operations = {
   "-" : Subtract,
   "+" : Add,
-  "*" : Multiplication,
-  "/" : Division
-
+  "*" : Multiply,
+  "/" : Divide
 }
-  
+
+num1 = int(input("What is the first number?: ").title())
+num2 = int(input("What is the second number?: ").title())
