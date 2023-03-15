@@ -14,4 +14,13 @@ def multiplication(n1, n2):
 
 #divide
 def division(n1, n2):
-  return n1 % n2
+  return n1 / n2
+
+operations = {
+  "-" : Subtract,
+  "+" : Add,
+  "*" : Multiplication,
+  "/" : Division
+
+}
+  
