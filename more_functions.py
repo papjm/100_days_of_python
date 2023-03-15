@@ -1,5 +1,6 @@
 def functions(first_name, last_name):
-  print(first_name.title())
-  print()
+  formatted_f_name = first_name.title()
+  formatted_l_name = last_namme.title()
+  return "f{formatted_f_name} {formatted_l_name}"
   
-functions("Adini","ADINI")
+print(functions("DavinCI", "CODE"))
