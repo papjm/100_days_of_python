@@ -10,11 +10,16 @@ def calculate_score(cards):
     return 0
 user_cards = []
 computer_cards = []
+is_game_over = False
 for _ in range(2):
   user_cards.append(deal_cards())
   computer_cards.append(deal_cards())
 user_score = calculate_score(user_cards)
 computer_score = calculate_score(computer_cards)
+
+if user_score == 0 or computer_score == 0 or user_score > 21:
+  
+  
    
   if 11 in cards and sum(cards) > 21:
     cards.remove(11)
