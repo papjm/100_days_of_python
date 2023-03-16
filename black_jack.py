@@ -5,17 +5,16 @@ def deal_card():
   return card
 #Hint: deal user and computer two cards each using deal_card()
 
+def calculate_score(cards):
+  if sum(cards) == 21 and len(cards) == 2:
+    return 0
 user_cards = []
 computer_cards = []
 for _ in range(2):
   user_cards.append(deal_cards())
   computer_cards.append(deal_cards())
 
-  
-def calculate_score(cards):
-  if sum(cards) == 21 and len(cards) == 2:
-    return 0
-  
+   
   if 11 in cards and sum(cards) > 21:
     cards.remove(11)
     cards.append(1)
