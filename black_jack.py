@@ -13,7 +13,8 @@ computer_cards = []
 for _ in range(2):
   user_cards.append(deal_cards())
   computer_cards.append(deal_cards())
-
+user_score = calculate_score(user_cards)
+computer_score = calculate_score(computer_cards)
    
   if 11 in cards and sum(cards) > 21:
     cards.remove(11)
