@@ -8,5 +8,5 @@ def deal_card():
 user_cards = []
 computer_cards = []
 for _ in range(2):
-  new_card = deal_card()
-  user_cards.append(new_card)
+  user_cards.append(deal_cards())
+  computer_cards.append(deal_cards())
