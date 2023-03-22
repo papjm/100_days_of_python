@@ -21,3 +21,4 @@ age = int(input("How old are you"))
 if age > 18:
   print(f"you can drive at age {age}")
   
+# Use python tutor to debug your code and see how things work step by step
