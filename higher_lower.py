@@ -1,4 +1,22 @@
 import random
+vs = """
+ _    __    
+| |  / /____
+| | / / ___/
+| |/ (__  ) 
+|___/____(_)
+"""
+logo = """
+    __  ___       __             
+   / / / (_)___ _/ /_  ___  _____
+  / /_/ / / __ `/ __ \/ _ \/ ___/
+ / __  / / /_/ / / / /  __/ /    
+/_/ ///_/\__, /_/ /_/\___/_/     
+   / /  /____/_      _____  _____
+  / /   / __ \ | /| / / _ \/ ___/
+ / /___/ /_/ / |/ |/ /  __/ /    
+/_____/\____/|__/|__/\___/_/     
+"""
 data = [
     {
         'name': 'Instagram',
@@ -315,4 +333,7 @@ if account_a == account_b:
     account_b = random.choice(data)
     
 print(f"Compare A: {format_data(account_a)}")
+print(vs)
 print(f"Compare B: {format_data(account_b)}")
+
+guess = input("Who has more followers? Type 'A' or 'B ':")
