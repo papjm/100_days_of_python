@@ -30,6 +30,24 @@ resources = {
     "milk": 200,
     "coffee": 100,
 }
+
+def is_resource_sufficient(order_ingredients):
+    """Returns true when orders can be made and false when resources are insufficient"""
+    for item in order_ingredients:
+        if order_ingredients[item] >= resources[item]:
+            print(f"Sorry there is not enough {item}.")
+            return False
+    return True
+
+def process_coins():
+    """returns the total calculations from coins inserted"""
+    print("please insert coins")
+    total = int(input("how many quarters? : ")) * 0.25
+    total += int(input("how many dimes? : ")) * 0.10
+    total += int(input("how many nickles? : ")) * 0.05
+    total += int(input("how many pennies ? : ")) * 0.01
+    return total
+
 is_on = True
 
 while True:
@@ -40,4 +58,9 @@ while True:
         print(f"Water: {resources['water']}ml")
         print(f"Milk: {resources['milk']}ml")
         print(f"Coffe: {resources['coffee']}g")
-        print("MOney: $2.5")
+        print(f"MOney: ${profit}")
+    else:
+        drink = MENU[choice]
+        if is_resource_sufficient(drink["ingredients"]):
+            payment = process_coins()
+
