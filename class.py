@@ -1,9 +1,9 @@
 class User:
-  pass
+    def __init__(self, user_id, username):
+        self.id = user_id
+        self.username = username
 
-user_1 = User()
-# An attribute is a variable that associated with an object
-user_1.id = "001"
-user_1.username = "hackerone"
+user_1 = User("001", "Hackerone")
 
-print(user_1.username)
+
+print(user_1.id)
