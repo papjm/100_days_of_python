@@ -1,3 +1,4 @@
+#this is related to data analysis or data science . wont be needing it for now, but just know it anyhway
 list = [1,2,3]
 new_list = [n+1 for n in list]
 print(new_list)
