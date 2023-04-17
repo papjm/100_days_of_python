@@ -20,6 +20,10 @@ button = Button(text="Click me", command=button_clicked)
 button.pack()
 
 
+#DATA Entry
+
+input = Entry()
+input.pack()
 
 
 
