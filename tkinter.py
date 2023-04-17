@@ -22,9 +22,9 @@ button.pack()
 
 #DATA Entry
 
-input = Entry()
+input = Entry(width=10)
 input.pack()
-
+input.get()
 
 
 
