@@ -1,6 +1,6 @@
-import tkinter
+from tkinter import *
 
-window = tkinter.Tk()
+window = Tk()
 
 # keeps the window on the screen for users to interact with it
 
@@ -12,9 +12,9 @@ window.minsize(width=500, height=300)
 my_label = tkinter.Label(text="papjm from Hackerone", font=("Arial", 24, "bold"))
 my_label.pack()
 
-#todays_code
 
 
+button = Button(text="Click me")
 
 
 
