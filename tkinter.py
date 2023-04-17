@@ -9,13 +9,14 @@ window.title("my first GUI program")
 # adjust the gui screen size
 window.minsize(width=500, height=300)
 
-my_label = tkinter.Label(text="papjm from Hackerone", font=("Arial", 24, "bold"))
+my_label = Label(text="papjm from Hackerone", font=("Arial", 24, "bold"))
 my_label.pack()
 
+def button_clicked():
+    print("i got clicked")
 
-
-button = Button(text="Click me")
-
+button = Button(text="Click me", command=button_clicked)
+button.pack()
 
 
 
