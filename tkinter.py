@@ -14,6 +14,7 @@ my_label.pack()
 
 def button_clicked():
     print("i got clicked")
+    my_label.config(text="Button got clicked")
 
 button = Button(text="Click me", command=button_clicked)
 button.pack()
