@@ -32,7 +32,8 @@ canvas.create_image(103,112, image=tomato_img)
 canvas.create_text(103, 130, text="00:00", fill="white", font=(FONT_NAME, 35, "bold"))
 canvas.grid(column=1, row=1)
 
-
+start_button = Button(text="Start")
+rest_button = Button(text="Reset")
 
 
 
