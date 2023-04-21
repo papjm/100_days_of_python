@@ -1,3 +1,4 @@
+from tkinter import *
 # watch out
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
