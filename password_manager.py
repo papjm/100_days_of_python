@@ -1,7 +1,9 @@
 from tkinter import *
-# watch out
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
 # ---------------------------- UI SETUP ------------------------------- #
+
+window = Tk()
+window.title("Password Manager")
