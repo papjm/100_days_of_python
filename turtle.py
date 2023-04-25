@@ -1,4 +1,5 @@
 #drawing graphics on the screen
+#still have to come rework on this (half baked)
 import random
 import turtle as t
 
